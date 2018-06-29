@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF0DE0E5-38B7-4766-A9DA-7F0AE26A0337}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kargo</RootNamespace>
+    <AssemblyName>kargo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET, Version=3.5.2.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="CKFinder, Version=2.0.1.1132, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CKFinder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="duyuru.aspx" />
+    <Content Include="kargobulunamadi.aspx" />
+    <Content Include="kargosorgu.aspx" />
+    <Content Include="manset\Thumbs.db" />
+    <Content Include="resimler\altmenu.psd" />
+    <Content Include="resimler\alt\Thumbs.db" />
+    <Content Include="resimler\Thumbs.db" />
+    <Content Include="resimler\ust.psd" />
+    <Content Include="manset.xml" />
+    <Content Include="sayfa.aspx" />
+    <Content Include="subeler.aspx" />
+    <Content Include="yonetim\cikis.aspx" />
+    <Content Include="yonetim\default.aspx" />
+    <Content Include="yonetim\duyuruduzenle.aspx" />
+    <Content Include="yonetim\duyurular.aspx" />
+    <Content Include="yonetim\duzenle.aspx" />
+    <Content Include="yonetim\kargolar.aspx" />
+    <Content Include="yonetim\kullanicilar.aspx" />
+    <Content Include="yonetim\sayfaduzenle.aspx" />
+    <Content Include="yonetim\sayfalar.aspx" />
+    <Content Include="yonetim\subeler.aspx" />
+    <Content Include="yonetim\yeniduyuru.aspx" />
+    <Content Include="yonetim\yenikargo.aspx" />
+    <Content Include="yonetim\yenisayfa.aspx" />
+    <Content Include="yonetim\yonetim.aspx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\stil.css" />
+    <Content Include="default.aspx" />
+    <Content Include="eklenti\ust.ascx" />
+    <Content Include="eklenti\alt.ascx" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\slayt.js" />
+    <Content Include="manset\0.png" />
+    <Content Include="manset\1.png" />
+    <Content Include="manset\2.png" />
+    <Content Include="manset\3.png" />
+    <Content Include="manset\4.png" />
+    <Content Include="resimler\alt\1.png" />
+    <Content Include="resimler\alt\2.png" />
+    <Content Include="resimler\alt\3.png" />
+    <Content Include="resimler\alt\4.png" />
+    <Content Include="resimler\alt\5.png" />
+    <Content Include="resimler\alt\6.png" />
+    <Content Include="resimler\alt\7.png" />
+    <Content Include="resimler\alt\8.png" />
+    <Content Include="resimler\alt\anlasmalar.png" />
+    <Content Include="resimler\alt\erasmus.png" />
+    <Content Include="resimler\alt\farabi.png" />
+    <Content Include="resimler\alt\kastunv_kasusem.png" />
+    <Content Include="resimler\alt\mevlana.png" />
+    <Content Include="resimler\alt\osym.png" />
+    <Content Include="resimler\alt\san-tez.png" />
+    <Content Include="resimler\alt\sempozuyum-logosu.png" />
+    <Content Include="resimler\alt\tubitak_logo.png" />
+    <Content Include="resimler\alt\yok.png" />
+    <Content Include="resimler\arkaplan.jpg" />
+    <Content Include="resimler\arkaplan2.jpg" />
+    <Content Include="resimler\bas.png" />
+    <Content Include="resimler\bg.png" />
+    <Content Include="resimler\bullet.png" />
+    <Content Include="resimler\duyurular.png" />
+    <Content Include="resimler\en.png" />
+    <Content Include="resimler\faaliyettakvimi.png" />
+    <Content Include="resimler\facebook.png" />
+    <Content Include="resimler\flickr.png" />
+    <Content Include="resimler\kargomnerede.png" />
+    <Content Include="resimler\Kopyası ust.png" />
+    <Content Include="resimler\loading.gif" />
+    <Content Include="resimler\opakbg.png" />
+    <Content Include="resimler\sureliduyurular.png" />
+    <Content Include="resimler\tr.png" />
+    <Content Include="resimler\twitter.png" />
+    <Content Include="resimler\ust.png" />
+    <Content Include="resimler\ust2.png" />
+    <Content Include="resimler\usthover.png" />
+    <Content Include="resimler\youtube.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="duyuru.aspx.cs">
+      <DependentUpon>duyuru.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="duyuru.aspx.designer.cs">
+      <DependentUpon>duyuru.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eklenti\ust.ascx.cs">
+      <DependentUpon>ust.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eklenti\ust.ascx.designer.cs">
+      <DependentUpon>ust.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="eklenti\alt.ascx.cs">
+      <DependentUpon>alt.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eklenti\alt.ascx.designer.cs">
+      <DependentUpon>alt.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="kargobulunamadi.aspx.cs">
+      <DependentUpon>kargobulunamadi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kargobulunamadi.aspx.designer.cs">
+      <DependentUpon>kargobulunamadi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kargosorgu.aspx.cs">
+      <DependentUpon>kargosorgu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kargosorgu.aspx.designer.cs">
+      <DependentUpon>kargosorgu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sayfa.aspx.cs">
+      <DependentUpon>sayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sayfa.aspx.designer.cs">
+      <DependentUpon>sayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subeler.aspx.cs">
+      <DependentUpon>subeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subeler.aspx.designer.cs">
+      <DependentUpon>subeler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\cikis.aspx.cs">
+      <DependentUpon>cikis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\cikis.aspx.designer.cs">
+      <DependentUpon>cikis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\duyuruduzenle.aspx.cs">
+      <DependentUpon>duyuruduzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\duyuruduzenle.aspx.designer.cs">
+      <DependentUpon>duyuruduzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\duyurular.aspx.cs">
+      <DependentUpon>duyurular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\duyurular.aspx.designer.cs">
+      <DependentUpon>duyurular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\duzenle.aspx.cs">
+      <DependentUpon>duzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\duzenle.aspx.designer.cs">
+      <DependentUpon>duzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\kargolar.aspx.cs">
+      <DependentUpon>kargolar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\kargolar.aspx.designer.cs">
+      <DependentUpon>kargolar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\kullanicilar.aspx.cs">
+      <DependentUpon>kullanicilar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\kullanicilar.aspx.designer.cs">
+      <DependentUpon>kullanicilar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\sayfaduzenle.aspx.cs">
+      <DependentUpon>sayfaduzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\sayfaduzenle.aspx.designer.cs">
+      <DependentUpon>sayfaduzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\sayfalar.aspx.cs">
+      <DependentUpon>sayfalar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\sayfalar.aspx.designer.cs">
+      <DependentUpon>sayfalar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\subeler.aspx.cs">
+      <DependentUpon>subeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\subeler.aspx.designer.cs">
+      <DependentUpon>subeler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\yeniduyuru.aspx.cs">
+      <DependentUpon>yeniduyuru.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\yeniduyuru.aspx.designer.cs">
+      <DependentUpon>yeniduyuru.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\yenikargo.aspx.cs">
+      <DependentUpon>yenikargo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\yenikargo.aspx.designer.cs">
+      <DependentUpon>yenikargo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\yenisayfa.aspx.cs">
+      <DependentUpon>yenisayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\yenisayfa.aspx.designer.cs">
+      <DependentUpon>yenisayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim\yonetim.aspx.cs">
+      <DependentUpon>yonetim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetim\yonetim.aspx.designer.cs">
+      <DependentUpon>yonetim.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12875</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12875/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

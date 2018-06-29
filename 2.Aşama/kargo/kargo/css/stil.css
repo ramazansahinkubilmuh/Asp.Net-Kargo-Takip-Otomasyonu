@@ -1,0 +1,362 @@
+body{
+	background: url(../resimler/arkaplan.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+#site{
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+#ust{
+	background-image: url("../resimler/ust.png");
+	width: 760px;
+	padding: 0 0 0 140px;
+	margin: 0 0 10px 0;
+}
+#ust2{
+	background-image: url("../resimler/ust2.png");
+	width: 760px;
+	padding: 0 0 0 140px;
+	margin: 0 0 10px 0;
+}
+#ustgovde{
+	width: 760px;
+	height: 95px;
+}
+#altgovde{
+	width: 760px;
+	height: 55px;
+}
+#menu{
+	height: 40px;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0 0 0 10px;
+	list-style-type: none;
+}
+#menu li {
+	float: left;
+}
+#menu a {
+	font-family: Georgia;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	padding: 13px 16px 13px 16px;
+	margin: 6px 0 0 0;
+}
+#menu a:hover {
+	background-image: url("../resimler/usthover.png");
+	padding: 13px 16px 13px 16px;
+	margin: 6px 0 0 0;
+}
+#menu ul li ul
+{
+	margin: -5px 0 0 0;
+	padding: 10px;
+	float: none;
+    position: absolute;
+	display: none;
+	z-index: 2;
+	background-color: #e33423;
+	border-right: 1px solid #a41100;
+	border-left: 1px solid #a41100;
+	border-bottom: 1px solid #a41100;
+	-webkit-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+}
+#menu ul li ul a
+{
+	margin: -1px 0 0 0;
+	padding: 10px 70px 10px 10px;
+	font-family: Georgia;
+	font-size: 10px;
+	-webkit-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+#menu ul li ul a:hover
+{
+	background-image: none;
+	background-color:#a41100;
+	margin: -1px 0 0 0;
+	padding: 10px 70px 10px 10px;
+	font-family: Georgia;
+	font-size: 10px;
+	-webkit-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius:0;
+}
+#menu ul li ul li
+{
+	float: none;
+}
+#menu ul li:hover ul
+{
+	margin: -1px 0 0 0;
+	padding: 0px;
+	float: none;
+
+}
+.govde{
+	background-image: url("../resimler/opakbg.png");
+	border: 1px solid #CCC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.govde2{
+	width: 50px;
+	float: right;
+	background-image: url("../resimler/opakbg.png");
+	border: 1px solid #CCC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 5px 9px 5px 0;
+	margin-bottom: 10px;
+}
+.sosyal{
+	width: 16px;
+	margin-left: 9px;
+	float: left;
+}
+.copyright{
+	width: 100%;
+    text-align: center;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.dil{
+	width: 16px;
+	margin-left: 9px;
+	float: right;
+}
+.tmz2{
+	clear: right;
+}
+#mcis { 
+display: none; 
+}
+#sliderFrame { 
+position: relative; 
+width: 880px;
+height: 250px;
+margin: 0 auto; 
+}
+#slider { 
+width: 880px; 
+height: 218px; 
+background: #fff url(../resimler/loading.gif) no-repeat 50% 50%; 
+position: relative; 
+margin: 0 auto; 
+box-shadow: 0px 1px 5px #999999; 
+}
+#slider img { 
+position: absolute; 
+border: none; 
+display: none; 
+}
+#slider a.imgLink { 
+z-index: 2; 
+display: none; 
+position: absolute; 
+top: 0px; 
+left: 0px; 
+border: 0; 
+padding: 0; 
+margin: 0; 
+width: 100%; 
+height: 100%; 
+}
+div.mc-caption-bg, div.mc-caption-bg2 { 
+position: absolute; 
+width: 100%; 
+height: auto; 
+padding: 0; 
+left: 0px; 
+bottom: 0px; 
+z-index: 3; 
+overflow: hidden; 
+font-size: 0; 
+}
+div.mc-caption-bg { 
+background-color: black; 
+}
+div.mc-caption { 
+font: bold 14px/20px Arial; 
+color: #EEE; 
+z-index: 4; 
+padding: 10px 0; 
+text-align: center; 
+}
+div.mc-caption a { 
+color: #FB0; 
+}
+div.mc-caption a:hover { 
+color: #DA0; 
+}
+div.navBulletsWrapper { 
+top: 230px; 
+left: 400px; 
+width: 150px; 
+background: none; 
+padding-left: 20px; 
+position: relative; 
+z-index: 5; 
+cursor: pointer; 
+}
+div.navBulletsWrapper div { 
+width: 11px; 
+height: 11px; 
+background: transparent url(../resimler/bullet.png) no-repeat 0 0; 
+float: left; 
+overflow: hidden; 
+vertical-align: middle; 
+cursor: pointer; 
+margin-right: 5px; 
+_position: relative; 
+}
+div.navBulletsWrapper div.active { 
+background-position: 0 -11px; 
+}
+#slider { 
+transform: translate3d(0,0,0); 
+-ms-transform: translate3d(0,0,0); 
+-moz-transform: translate3d(0,0,0); 
+-o-transform: translate3d(0,0,0); 
+-webkit-transform: translate3d(0,0,0); 
+} 
+.duyurular{
+	background-image: url("../resimler/duyurular.png");
+	background-repeat:no-repeat;
+	width: 420px;
+	padding: 35px 9px 0 0;
+	margin-right:280;
+	float: left;
+}
+.duyuru{
+	background-image: url("../resimler/bas.png");
+	background-repeat:no-repeat;
+	padding-left: 16px;
+	padding-top: 1px;
+	font-family: Tahoma;
+	font-size: 11px;
+	margin: 5px 0 5px 0;
+}
+.faaliyet{
+	background-image: url("../resimler/faaliyettakvimi.png");
+	width: 280px;
+	padding: 35px 9px 0 0;
+	background-repeat:no-repeat;
+	float: left;
+}
+.kargom{
+	background-image: url("../resimler/kargomnerede.png");
+	background-repeat:no-repeat;
+	width: 420px;
+	padding: 35px 9px 0 9px;
+	float: left;
+}
+.bosluk{
+	margin: 0 0 10px 0;
+}
+.button{
+	width: 410px;
+	padding: 5px 10px 5px 10px;
+	background-color: #2c539e;
+	border: 1px solid #00236f;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;	
+}
+.input{
+	width: 397px;
+	padding: 5px;
+	border: 1px solid #00236f;
+	font-family: Arial;
+	font-size: 12px;
+	color: #2c539e;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;	
+}
+.tmz{
+	clear: left;
+}
+.a{
+	color:#000;
+	text-decoration: none;
+}
+.a:hover{
+	text-decoration: underline;
+}
+.faaliyetler{
+	padding: 3px 0 3px 0;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.gri{
+	color: #7f7f7f;
+}
+.takvim{
+	width: 45px;
+	height: 50px;
+	margin-right: 10px;
+	float: left;
+}
+.ay{
+	padding: 3px 0 3px 0;
+	background-color: #6e7c9d;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+}
+.gun{
+	font-family: Arial;
+	background-color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: #CCC;
+}
+.alt{
+	margin: 15px auto 0 auto;
+	padding-top: 10px;
+	border-top: 1px dashed #CCC;
+	width: 872px;
+}
+.alticon{
+	margin-right: 9px;
+	float: left;
+	opacity: 0.4;
+}
+.alticon:hover{
+	opacity: 1;
+}
+.baslik{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    border-bottom: 2px dashed #FF0000;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}
+.font{
+    font-family: Arial;
+    font-size: 13px;
+}

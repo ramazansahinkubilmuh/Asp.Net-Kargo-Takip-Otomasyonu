@@ -1,0 +1,12 @@
+c:\users\rezan yıldız\documents\visual studio 2013\Projects\kargo\kargo\bin\kargo.dll.config
+c:\users\rezan yıldız\documents\visual studio 2013\Projects\kargo\kargo\bin\kargo.dll
+c:\users\rezan yıldız\documents\visual studio 2013\Projects\kargo\kargo\bin\kargo.pdb
+c:\users\rezan yıldız\documents\visual studio 2013\Projects\kargo\kargo\obj\Debug\kargo.csprojResolveAssemblyReference.cache
+c:\users\rezan yıldız\documents\visual studio 2013\Projects\kargo\kargo\obj\Debug\kargo.dll
+c:\users\rezan yıldız\documents\visual studio 2013\Projects\kargo\kargo\obj\Debug\kargo.pdb
+C:\Users\Rmzn_Shn\Desktop\kargo\kargo\bin\kargo.dll.config
+C:\Users\Rmzn_Shn\Desktop\kargo\kargo\bin\kargo.dll
+C:\Users\Rmzn_Shn\Desktop\kargo\kargo\bin\kargo.pdb
+C:\Users\Rmzn_Shn\Desktop\kargo\kargo\obj\Debug\kargo.csprojResolveAssemblyReference.cache
+C:\Users\Rmzn_Shn\Desktop\kargo\kargo\obj\Debug\kargo.dll
+C:\Users\Rmzn_Shn\Desktop\kargo\kargo\obj\Debug\kargo.pdb
